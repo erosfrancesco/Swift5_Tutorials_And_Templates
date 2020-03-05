@@ -11,13 +11,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         CounterView(counter: .random(in: 0...10))
-//            .environment(\.colorScheme, .dark)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-//            .environment(\.colorScheme, .dark)
     }
 }

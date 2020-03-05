@@ -18,18 +18,14 @@ struct CustomButton: View {
     // MARK: - Component Wrapper
     var body: some View {
         Button(action: action, label: {textLabel})
-            .frame(width: size, height: size, alignment: .center)
-            .background(Color.accentColor)
-            .cornerRadius(size / 2)
-            .shadow(color: .black, radius: 2)
+            .modifier(CustomButtonStyling(size: size))
     }
     
     // MARK: - Childs
     var textLabel :some View {
         Text(label)
-            .foregroundColor(.white)
             .font(.title)
-//            .shadow(color: .black, radius: 1) // doesn't show any shadows
+            .foregroundColor(.white)
    }
 }
 
@@ -39,7 +35,7 @@ struct CustomButton_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             CustomButton(label: "+")
-                .environment(\.colorScheme, .dark)
+//                .environment(\.colorScheme, .dark)
         }
     }
 }
