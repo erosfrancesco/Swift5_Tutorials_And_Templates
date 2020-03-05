@@ -14,6 +14,7 @@
 		5222FB612411103D00868754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5222FB602411103D00868754 /* Preview Assets.xcassets */; };
 		5222FB642411103D00868754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5222FB622411103D00868754 /* LaunchScreen.storyboard */; };
 		5222FB6C241110AB00868754 /* AppStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222FB6B241110AB00868754 /* AppStyling.swift */; };
+		5230E8B624113E5900BD7393 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230E8B524113E5900BD7393 /* Gradients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5222FB632411103D00868754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5222FB652411103D00868754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5222FB6B241110AB00868754 /* AppStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyling.swift; sourceTree = "<group>"; };
+		5230E8B524113E5900BD7393 /* Gradients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				5222FB572411103D00868754 /* AppDelegate.swift */,
 				5222FB6B241110AB00868754 /* AppStyling.swift */,
+				5230E8B524113E5900BD7393 /* Gradients.swift */,
 				5222FB592411103D00868754 /* SceneDelegate.swift */,
 				5222FB5B2411103D00868754 /* ContentView.swift */,
 				5222FB5D2411103D00868754 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				5222FB5A2411103D00868754 /* SceneDelegate.swift in Sources */,
 				5222FB6C241110AB00868754 /* AppStyling.swift in Sources */,
 				5222FB5C2411103D00868754 /* ContentView.swift in Sources */,
+				5230E8B624113E5900BD7393 /* Gradients.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

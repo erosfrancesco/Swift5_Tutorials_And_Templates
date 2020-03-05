@@ -17,6 +17,9 @@ struct ContentView: View {
             Text("'Sup, Dark Mode!")
                 .modifier(AppStyling(darkMode: false))
                 .modifier(BigText())
+            Text("'Sup, Rainbow!")
+                .modifier(Rainbow())
+                .modifier(BigText())
             Text("(Expect a lot more greetings...)")
         }
         

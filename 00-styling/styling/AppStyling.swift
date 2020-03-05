@@ -9,10 +9,8 @@
 import SwiftUI
 
 struct AppStyling: ViewModifier {
-    // MARK: - Parameters
     var darkMode: Bool = false
     
-    // MARK: - Main
     func body(content: Content) -> some View {
         let paddedContent = content.padding()
         
@@ -30,9 +28,16 @@ struct AppStyling: ViewModifier {
 
 
 struct BigText: ViewModifier {
-    // MARK: - Main
     func body(content: Content) -> some View {
         content
+            .font(.title)
+    }
+}
+
+struct Rainbow: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .background(Gradients.rainbow())
             .font(.title)
     }
 }
