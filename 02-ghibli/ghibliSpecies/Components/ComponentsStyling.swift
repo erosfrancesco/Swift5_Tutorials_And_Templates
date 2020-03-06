@@ -39,8 +39,6 @@ struct GhibliSpecieElementSubTitleStyling: ViewModifier {
     func body(content: Content) -> some View {
         content
            .font(.subheadline)
-//           .bold()
-//           .padding(.leading, 18)
            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: nil, alignment: .leading)
            .shadow(radius: 0)
     }

@@ -12,15 +12,19 @@ struct ContentView: View {
     var body: some View {
         VStack() {
             Text("Hi, Styles!")
-                .modifier(AppStyling(darkMode: true))
-                .modifier(BigText())
-            Text("'Sup, Dark Mode!")
                 .modifier(AppStyling(darkMode: false))
                 .modifier(BigText())
+                .padding()
+            Text("'Sup, Dark Mode!")
+                .modifier(AppStyling(darkMode: true))
+                .modifier(BigText())
+                .padding()
             Text("'Sup, Rainbow!")
                 .modifier(Rainbow())
                 .modifier(BigText())
+                .padding()
             Text("(Expect a lot more greetings...)")
+                .padding()
         }
         
     }
